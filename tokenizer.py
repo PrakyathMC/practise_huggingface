@@ -23,3 +23,31 @@ print(res)
 #[{'label': 'POSITIVE', 'score': 0.9598049521446228}]
 #[{'label': 'POSITIVE', 'score': 0.9598049521446228}]
 
+
+
+# BACKEND FUNCTION OF A TOKENIZER
+
+sequences = "Using a Transformer network is simple"
+res = tokenizer(sequences)
+print(res)
+
+tokens = tokenizer.tokenize(sequences)
+print(tokens)
+
+ids = tokenizer.convert_tokens_to_ids(tokens)
+print(ids)
+
+decoded_string = tokenizer.decode(ids)
+print(decoded_string)
+
+
+
+
+
+
+
+
+
+
+
+
