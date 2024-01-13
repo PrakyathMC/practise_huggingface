@@ -1,0 +1,6 @@
+transformers
+AutoTokenizer
+pytorch
+tensorlow
+pipelines
+requests
